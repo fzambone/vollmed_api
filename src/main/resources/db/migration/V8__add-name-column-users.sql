@@ -1,0 +1,5 @@
+ALTER TABLE users
+    ADD name VARCHAR(255);
+
+ALTER TABLE users
+    ALTER COLUMN name SET NOT NULL;

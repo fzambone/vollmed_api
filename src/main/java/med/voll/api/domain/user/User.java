@@ -29,6 +29,10 @@ public class User implements UserDetails {
 
     @NotBlank
     @NotNull
+    private String name;
+
+    @NotBlank
+    @NotNull
     private String username;
 
     @NotBlank
